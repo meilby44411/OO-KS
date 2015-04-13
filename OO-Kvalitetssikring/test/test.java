@@ -34,6 +34,20 @@ public class test {
 		
 		assertEquals(romertal1.add("II", "II"), "IIII");
 	}
+	
+	@Test
+	public void testVplusVIEqualsXI() {
+		
+		// 3. setup
+		Romertal romertal1;
+		
+		// 2. Execution
+		romertal1 = new Romertal("I");
+		
+		assertEquals(romertal1.add("V", "VI"), "XI");
+	}
+	
+	
 
 	
 }
