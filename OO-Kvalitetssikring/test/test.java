@@ -11,8 +11,16 @@ public class test {
 	}
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testIplusIIEqualsIII() {
+		
+		// 3. setup
+		Romertal romertal1;
+		
+		// 2. Execution
+		romertal1 = new Romertal("I");
+		
+		assertEquals(romertal1.add("I", "II"), "III");
 	}
 
+	
 }
